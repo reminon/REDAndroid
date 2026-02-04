@@ -1,4 +1,4 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import android.support.v4.content.FileProvider;
 
