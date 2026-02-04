@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.category;
+package com.greatposterwall.ui.forum.category;
 
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
@@ -19,10 +19,10 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ch.redacted.app.R;
-import ch.redacted.ui.base.BaseDrawerActivity;
-import ch.redacted.ui.forum.threadList.ThreadListActivity;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.app.R;
+import com.greatposterwall.ui.base.BaseDrawerActivity;
+import com.greatposterwall.ui.forum.threadList.ThreadListActivity;
+import com.greatposterwall.util.ImageHelper;
 
 public class CategoryActivity extends BaseDrawerActivity implements CategoryMvpView, CategoryAdapter.Callback {
 
