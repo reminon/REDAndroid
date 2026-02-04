@@ -1,4 +1,4 @@
-package ch.redacted.ui.view;
+package com.greatposterwall.ui.view;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ch.redacted.app.R;
+import com.greatposterwall.app.R;
 
 /**
  * Created by sxo on 29/12/16.
