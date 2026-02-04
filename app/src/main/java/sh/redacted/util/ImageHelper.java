@@ -1,11 +1,11 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.widget.ImageView;
 
 import java.lang.reflect.Field;
 
-import ch.redacted.app.R;
+import com.greatposterwall.app.R;
 
 /**
  * Created by sxo on 26/05/17.
