@@ -1,14 +1,14 @@
-package ch.redacted.ui.top10;
+package com.greatposterwall.ui.top10;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableSingleObserver;
 import io.reactivex.schedulers.Schedulers;
 import javax.inject.Inject;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.model.Top10;
-import ch.redacted.injection.ConfigPersistent;
-import ch.redacted.ui.base.BasePresenter;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.model.Top10;
+import com.greatposterwall.injection.ConfigPersistent;
+import com.greatposterwall.ui.base.BasePresenter;
 
 @ConfigPersistent public class Top10Presenter extends BasePresenter<Top10MvpView> {
 
