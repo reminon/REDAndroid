@@ -1,4 +1,4 @@
-package ch.redacted.ui.login;
+package com.greatposterwall.ui.login;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -15,10 +15,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import ch.redacted.app.R;
-import ch.redacted.ui.base.BaseActivity;
-import ch.redacted.ui.announcements.AnnouncementActivity;
-import ch.redacted.util.SharedPrefsHelper;
+import com.greatposterwall.app.R;
+import com.greatposterwall.ui.base.BaseActivity;
+import com.greatposterwall.ui.announcements.AnnouncementActivity;
+import com.greatposterwall.util.SharedPrefsHelper;
 
 public class LoginActivity extends BaseActivity implements LoginMvpView {
 
@@ -57,16 +57,16 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
 
 		switch (imageId){
 			case 1:
-				logo.setImageResource(R.drawable.redacted_logo_1);
+				logo.setImageResource(R.drawable.greatposterwall_logo_1);
 				break;
 			case 2:
-				logo.setImageResource(R.drawable.redacted_logo_2);
+				logo.setImageResource(R.drawable.greatposterwall_logo_2);
 				break;
 			case 3:
-				logo.setImageResource(R.drawable.redacted_logo_3);
+				logo.setImageResource(R.drawable.greatposterwall_logo_3);
 				break;
 			default:
-				logo.setImageResource(R.drawable.redacted_logo_1);
+				logo.setImageResource(R.drawable.greatposterwall_logo_1);
 				break;
 		}
 
