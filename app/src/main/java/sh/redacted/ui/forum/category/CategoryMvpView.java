@@ -1,8 +1,8 @@
-package ch.redacted.ui.forum.category;
+package com.greatposterwall.ui.forum.category;
 
 import java.util.List;
 
-import ch.redacted.ui.base.MvpView;
+import com.greatposterwall.ui.base.MvpView;
 
 public interface CategoryMvpView extends MvpView {
 
