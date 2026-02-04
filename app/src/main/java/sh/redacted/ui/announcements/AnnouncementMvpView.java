@@ -1,9 +1,9 @@
-package ch.redacted.ui.announcements;
+package com.greatposterwall.ui.announcements;
 
 import java.util.List;
 
-import ch.redacted.ui.base.MvpView;
-import ch.redacted.data.model.Announcement;
+import com.greatposterwall.ui.base.MvpView;
+import com.greatposterwall.data.model.Announcement;
 
 public interface AnnouncementMvpView extends MvpView {
 
