@@ -1,4 +1,4 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import io.reactivex.Observable;
 import io.reactivex.functions.Function;
