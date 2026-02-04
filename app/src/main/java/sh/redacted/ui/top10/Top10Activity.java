@@ -1,4 +1,4 @@
-package ch.redacted.ui.top10;
+package com.greatposterwall.ui.top10;
 
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
@@ -20,11 +20,11 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import java.util.List;
 import javax.inject.Inject;
-import ch.redacted.app.R;
-import ch.redacted.data.model.Top10;
-import ch.redacted.ui.base.BaseDrawerActivity;
-import ch.redacted.ui.release.ReleaseActivity;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.Top10;
+import com.greatposterwall.ui.base.BaseDrawerActivity;
+import com.greatposterwall.ui.release.ReleaseActivity;
+import com.greatposterwall.util.ImageHelper;
 
 public class Top10Activity extends BaseDrawerActivity implements Top10MvpView, Top10Adapter.Callback {
 
