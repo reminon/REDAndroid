@@ -1,9 +1,9 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import java.util.Collections;
 import java.util.List;
 
-import ch.redacted.data.model.Artist;
+import com.greatposterwall.data.model.Artist;
 
 /**
  * Created by sxo on 19/01/17.
