@@ -1,4 +1,4 @@
-package ch.redacted;
+package com.greatposterwall;
 
 import android.annotation.TargetApi;
 import android.app.Application;
@@ -27,11 +27,11 @@ import org.acra.config.ConfigurationBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-import ch.redacted.app.R;
-import ch.redacted.data.NotificationService;
-import ch.redacted.injection.component.ApplicationComponent;
-import ch.redacted.injection.component.DaggerApplicationComponent;
-import ch.redacted.injection.module.ApplicationModule;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.NotificationService;
+import com.greatposterwall.injection.component.ApplicationComponent;
+import com.greatposterwall.injection.component.DaggerApplicationComponent;
+import com.greatposterwall.injection.module.ApplicationModule;
 
 /**
  * Created by fatih on 11.9.2015.
@@ -40,7 +40,7 @@ import ch.redacted.injection.module.ApplicationModule;
  */
 
 @ReportsCrashes(
-		formUri = "http://127.0.0.1:5984/acra-redacted/_design/acra-storage/_update/report",
+		formUri = "http://127.0.0.1:5984/acra-greatposterwall/_design/acra-storage/_update/report",
 		reportType = org.acra.sender.HttpSender.Type.JSON,
 		httpMethod = org.acra.sender.HttpSender.Method.PUT,
 		formUriBasicAuthLogin="reporteruser",
@@ -55,9 +55,9 @@ import ch.redacted.injection.module.ApplicationModule;
 		resDialogTheme = android.R.style.Theme_DeviceDefault_Dialog
 )
 
-public class REDApplication extends Application {
+public class GPWApplication extends Application {
 
-	public static final String DEFAULT_SITE = "https://redacted.sh";
+	public static final String DEFAULT_SITE = "https://greatposterwall.com";
 //		public static final String DEFAULT_SITE = "https://pthdev.pw";
 	ApplicationComponent mApplicationComponent;
 
@@ -121,8 +121,8 @@ public class REDApplication extends Application {
 		dispatcher.mustSchedule(job);
 	}
 
-	public static REDApplication get(Context context) {
-		return (REDApplication) context.getApplicationContext();
+	public static GPWApplication get(Context context) {
+		return (GPWApplication) context.getApplicationContext();
 	}
 
 	public ApplicationComponent getComponent() {
