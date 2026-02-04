@@ -5,7 +5,7 @@ android {
     buildToolsVersion '29.0.2'
 
     defaultConfig {
-        applicationId 'ch.redacted.app'
+        applicationId 'com.greatposterwall.app'
         minSdkVersion 16
         targetSdkVersion 29
         testInstrumentationRunner "${applicationId}.runner.RxAndroidJUnitRunner"
@@ -51,7 +51,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "REDAndroid-${variant.versionName}.apk"
+            outputFileName = "GPWAndroid-${variant.versionName}.apk"
         }
     }
 
