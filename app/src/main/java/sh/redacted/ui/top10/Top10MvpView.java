@@ -1,8 +1,8 @@
-package ch.redacted.ui.top10;
+package com.greatposterwall.ui.top10;
 
 import java.util.List;
-import ch.redacted.data.model.Top10;
-import ch.redacted.ui.base.MvpView;
+import com.greatposterwall.data.model.Top10;
+import com.greatposterwall.ui.base.MvpView;
 
 public interface Top10MvpView extends MvpView {
 
