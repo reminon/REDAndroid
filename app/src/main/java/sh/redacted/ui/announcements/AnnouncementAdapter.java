@@ -1,4 +1,4 @@
-package ch.redacted.ui.announcements;
+package com.greatposterwall.ui.announcements;
 
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -25,10 +25,10 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ch.redacted.REDApplication;
-import ch.redacted.app.R;
-import ch.redacted.data.model.Announcement;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.REDApplication;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.Announcement;
+import com.greatposterwall.util.ImageHelper;
 
 /**
  * Created by sxo on 23/12/16.
@@ -62,7 +62,7 @@ public class AnnouncementAdapter extends RecyclerView.Adapter<AnnouncementAdapte
                 announcement.newsTime.getTime(), new Date().getTime(),
                 DateUtils.FORMAT_ABBREV_ALL));
 
-        if (REDApplication.get(holder.announcementImage.getContext()).getComponent().dataManager().getPreferencesHelper().getLoadImages()) {
+        if (GPWApplication.get(holder.announcementImage.getContext()).getComponent().dataManager().getPreferencesHelper().getLoadImages()) {
             String firstImageUrl = ImageHelper.getFirstImageLink(announcement.body);
             if (firstImageUrl.length() > 0) {
                 Glide.with(holder.announcementImage.getContext()).load(firstImageUrl).asBitmap().fitCenter().into(holder.announcementImage);
