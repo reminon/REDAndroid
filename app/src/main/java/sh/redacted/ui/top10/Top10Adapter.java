@@ -1,4 +1,4 @@
-package ch.redacted.ui.top10;
+package com.greatposterwall.ui.top10;
 
 import android.os.Build;
 import android.support.v7.widget.RecyclerView;
@@ -21,10 +21,10 @@ import java.util.Locale;
 import javax.inject.Inject;
 
 import jp.shts.android.library.TriangleLabelView;
-import ch.redacted.REDApplication;
-import ch.redacted.app.R;
-import ch.redacted.data.model.Top10;
-import ch.redacted.util.Tags;
+import com.greatposterwall.REDApplication;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.Top10;
+import com.greatposterwall.util.Tags;
 
 import org.sufficientlysecure.htmltextview.HtmlTextView;
 
