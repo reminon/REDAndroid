@@ -1,4 +1,4 @@
-package ch.redacted.ui.announcements;
+package com.greatposterwall.ui.announcements;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -6,10 +6,10 @@ import io.reactivex.observers.DisposableSingleObserver;
 import io.reactivex.schedulers.Schedulers;
 import javax.inject.Inject;
 
-import ch.redacted.ui.base.BasePresenter;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.model.Announcement;
-import ch.redacted.injection.ConfigPersistent;
+import com.greatposterwall.ui.base.BasePresenter;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.model.Announcement;
+import com.greatposterwall.injection.ConfigPersistent;
 
 @ConfigPersistent public class AnnouncementPresenter extends BasePresenter<AnnouncementMvpView> {
 
