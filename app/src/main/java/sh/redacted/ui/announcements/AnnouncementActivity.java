@@ -1,4 +1,4 @@
-package ch.redacted.ui.announcements;
+package com.greatposterwall.ui.announcements;
 
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -16,10 +16,10 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ch.redacted.app.R;
-import ch.redacted.data.model.Announcement;
-import ch.redacted.ui.base.BaseDrawerActivity;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.Announcement;
+import com.greatposterwall.ui.base.BaseDrawerActivity;
+import com.greatposterwall.util.ImageHelper;
 
 public class AnnouncementActivity extends BaseDrawerActivity implements AnnouncementMvpView {
 
