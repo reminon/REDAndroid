@@ -1,6 +1,6 @@
-package ch.redacted.ui.login;
+package com.greatposterwall.ui.login;
 
-import ch.redacted.ui.base.MvpView;
+import com.greatposterwall.ui.base.MvpView;
 
 public interface LoginMvpView extends MvpView {
 
