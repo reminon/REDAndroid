@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ch.redacted.app">
+    package="com.greatposterwall.app">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
-        android:name="ch.redacted.REDApplication"
+        android:name="com.greatposterwall.GPWApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         tools:replace="android:theme"
         android:theme="@style/AppTheme">
         <activity
-            android:name="ch.redacted.ui.login.LoginActivity"
+            android:name="com.greatposterwall.ui.login.LoginActivity"
             android:label="@string/app_name"
             android:theme="@style/AppNoActionTheme">
             <intent-filter>
@@ -40,18 +40,18 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
-                    android:host="redacted.sh"
+                    android:host="greatposterwall.com"
                     android:pathPrefix="/user"
                     android:scheme="https"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.announcements.AnnouncementActivity">
+            android:name="com.greatposterwall.ui.announcements.AnnouncementActivity">
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.forum.category.CategoryActivity">
+            android:name="com.greatposterwall.ui.forum.category.CategoryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
 
@@ -59,31 +59,31 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
-                    android:host="redacted.sh"
+                    android:host="greatposterwall.com"
                     android:pathPrefix="/forums"
                     android:scheme="https"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.forum.threadList.ThreadListActivity"/>
+            android:name="com.greatposterwall.ui.forum.threadList.ThreadListActivity"/>
 
         <activity
-            android:name="ch.redacted.ui.forum.thread.ThreadActivity"
+            android:name="com.greatposterwall.ui.forum.thread.ThreadActivity"
             android:label="@string/forums"
             android:theme="@style/AppNoActionTheme"
             android:windowSoftInputMode="adjustPan"/>
 
         <activity
-            android:name="ch.redacted.ui.top10.Top10Activity">
+            android:name="com.greatposterwall.ui.top10.Top10Activity">
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.settings.SettingsActivity">
+            android:name="com.greatposterwall.ui.settings.SettingsActivity">
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.release.ReleaseActivity"
+            android:name="com.greatposterwall.ui.release.ReleaseActivity"
             android:label="@string/release"
             android:theme="@style/AppNoActionTheme">
             <intent-filter>
@@ -93,31 +93,31 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
-                    android:host="redacted.sh"
+                    android:host="greatposterwall.com"
                     android:pathPrefix="/torrents"
                     android:scheme="https"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.search.user.UserSearchActivity"/>
+            android:name="com.greatposterwall.ui.search.user.UserSearchActivity"/>
 
         <activity
-            android:name="ch.redacted.ui.search.request.RequestSearchActivity"/>
+            android:name="com.greatposterwall.ui.search.request.RequestSearchActivity"/>
 
-        <activity android:name="ch.redacted.ui.search.collage.CollageSearchActivity" />
-
-        <activity
-            android:name="ch.redacted.ui.search.torrent.TorrentSearchActivity"/>
+        <activity android:name="com.greatposterwall.ui.search.collage.CollageSearchActivity" />
 
         <activity
-            android:name="ch.redacted.ui.search.artist.ArtistSearchActivity"/>
+            android:name="com.greatposterwall.ui.search.torrent.TorrentSearchActivity"/>
 
         <activity
-            android:name="ch.redacted.ui.bookmark.BookmarkActivity"/>
+            android:name="com.greatposterwall.ui.search.artist.ArtistSearchActivity"/>
 
         <activity
-            android:name="ch.redacted.ui.artist.ArtistActivity"
+            android:name="com.greatposterwall.ui.bookmark.BookmarkActivity"/>
+
+        <activity
+            android:name="com.greatposterwall.ui.artist.ArtistActivity"
             android:label="@string/artist"
             android:theme="@style/AppNoActionTheme">
             <intent-filter>
@@ -127,43 +127,43 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
-                    android:host="redacted.sh"
+                    android:host="greatposterwall.com"
                     android:pathPrefix="/artist"
                     android:scheme="https"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.request.RequestActivity"
+            android:name="com.greatposterwall.ui.request.RequestActivity"
             android:theme="@style/AppNoActionTheme"/>
 
-        <activity android:name="ch.redacted.ui.collage.CollageActivity" />
+        <activity android:name="com.greatposterwall.ui.collage.CollageActivity" />
 
         <activity
-            android:name="ch.redacted.ui.inbox.InboxActivity">
+            android:name="com.greatposterwall.ui.inbox.InboxActivity">
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.reply.ReplyActivity"/>
+            android:name="com.greatposterwall.ui.reply.ReplyActivity"/>
 
         <activity
-            android:name="ch.redacted.ui.inbox.conversation.ConversationActivity">
+            android:name="com.greatposterwall.ui.inbox.conversation.ConversationActivity">
         </activity>
 
         <activity
-            android:name="ch.redacted.ui.subscriptions.SubscriptionsActivity">
+            android:name="com.greatposterwall.ui.subscriptions.SubscriptionsActivity">
         </activity>
 
         <service
             android:exported="false"
-            android:name="ch.redacted.data.NotificationService">
+            android:name="com.greatposterwall.data.NotificationService">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
             </intent-filter>
         </service>
 
         <provider
-            android:name="ch.redacted.util.GenericFileProvider"
+            android:name="com.greatposterwall.util.GenericFileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -173,7 +173,7 @@
         </provider>
 
         <meta-data
-            android:name="ch.redacted.util.GlideConfiguration"
+            android:name="com.greatposterwall.util.GlideConfiguration"
             android:value="GlideModule"/>
     </application>
 </manifest>
