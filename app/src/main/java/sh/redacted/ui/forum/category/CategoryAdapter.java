@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.category;
+package com.greatposterwall.ui.forum.category;
 
 import android.os.Build;
 import android.support.v7.widget.RecyclerView;
@@ -18,8 +18,8 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ch.redacted.app.R;
-import ch.redacted.data.model.ForumCategory;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.ForumCategory;
 
 /**
  * Created by sxo on 23/12/16.
