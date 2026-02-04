@@ -1,4 +1,4 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.support.annotation.StringRes;
 import android.support.v7.app.AlertDialog;
 
-import ch.redacted.app.R;
+import com.greatposterwall.app.R;
 
 /**
  * Created by sxo on 18/12/16.
