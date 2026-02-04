@@ -1,4 +1,4 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 /**
  * Created by sxo on 24/05/17.
