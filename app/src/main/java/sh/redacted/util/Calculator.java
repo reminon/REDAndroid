@@ -1,9 +1,9 @@
-package ch.redacted.util;
+package com.greatposterwall.util;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
-import ch.redacted.data.model.Profile;
+import com.greatposterwall.data.model.Profile;
 
 /**
  * Created by hfatih on 1/6/2017.
