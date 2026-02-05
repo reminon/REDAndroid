@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.thread;
+package com.greatposterwall.ui.forum.thread;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,9 +15,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
-import ch.redacted.REDApplication;
-import ch.redacted.util.Emoji;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.GPWApplication;
+import com.greatposterwall.util.Emoji;
+import com.greatposterwall.util.ImageHelper;
 import org.sufficientlysecure.htmltextview.HtmlHttpImageGetter;
 import org.sufficientlysecure.htmltextview.HtmlTextView;
 
@@ -31,8 +31,8 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ch.redacted.app.R;
-import ch.redacted.data.model.ForumThread;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.ForumThread;
 
 /**
  * Created by sxo on 23/12/16.
