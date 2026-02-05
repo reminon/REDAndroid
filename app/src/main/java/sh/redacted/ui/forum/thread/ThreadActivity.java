@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.thread;
+package com.greatposterwall.ui.forum.thread;
 
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
@@ -18,23 +18,23 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import butterknife.OnClick;
-import ch.redacted.ui.reply.ReplyActivity;
+import com.greatposterwall.ui.reply.ReplyActivity;
 import net.opacapp.multilinecollapsingtoolbar.CollapsingToolbarLayout;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ch.redacted.app.R;
-import ch.redacted.data.model.ForumThread;
-import ch.redacted.ui.base.BaseActivity;
-import ch.redacted.ui.profile.ProfileActivity;
-import ch.redacted.ui.view.ForumNavigationView;
-import ch.redacted.util.ImageHelper;
+import com.greatposterwall.app.R;
+import com.greatposterwall.data.model.ForumThread;
+import com.greatposterwall.ui.base.BaseActivity;
+import com.greatposterwall.ui.profile.ProfileActivity;
+import com.greatposterwall.ui.view.ForumNavigationView;
+import com.greatposterwall.util.ImageHelper;
 
-import static ch.redacted.ui.reply.ReplyActivity.TYPE_MESSAGE;
-import static ch.redacted.ui.reply.ReplyActivity.TYPE_POST;
-import static ch.redacted.ui.reply.ReplyActivity.TYPE_THREAD;
+import static com.greatposterwall.ui.reply.ReplyActivity.TYPE_MESSAGE;
+import static com.greatposterwall.ui.reply.ReplyActivity.TYPE_POST;
+import static com.greatposterwall.ui.reply.ReplyActivity.TYPE_THREAD;
 
 /**
  * Created by sxo on 27/12/16.
