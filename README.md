@@ -1,6 +1,6 @@
 # GPWAndroid
 
-## An android app for Grat Poster Wall
+## An android app for Great Poster Wall
 This app includes most site features, but some are still in progress
 
 The app may work with a default setup of Gazelle, however some changes have been made to the api to support certain features. These should not be breaking, or easy to remove/update. Just change the url to point to your site and enjoy.
