@@ -1,12 +1,12 @@
-package ch.redacted.app;
+package com.greatposterwall.app;
 
 import io.reactivex.Single;
 import io.reactivex.observers.TestObserver;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.local.PreferencesHelper;
-import ch.redacted.data.model.Index;
-import ch.redacted.data.remote.ApiService;
-import ch.redacted.data.remote.WhatManagerService;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.local.PreferencesHelper;
+import com.greatposterwall.data.model.Index;
+import com.greatposterwall.data.remote.ApiService;
+import com.greatposterwall.data.remote.WhatManagerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

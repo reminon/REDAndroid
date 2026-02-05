@@ -85,7 +85,7 @@
 
     <android.support.v7.preference.PreferenceCategory
         android:key="pref_version"
-        android:title="REDAndroid Version">
+        android:title="GPWAndroid Version">
         <android.support.v7.preference.Preference
             android:defaultValue=""
             android:key="@string/key_pref_version_name"

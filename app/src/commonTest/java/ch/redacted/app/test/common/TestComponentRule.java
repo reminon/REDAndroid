@@ -1,11 +1,11 @@
-package ch.redacted.app.test.common;
+package com.greatposterwall.app.test.common;
 
 import android.content.Context;
 
-import ch.redacted.REDApplication;
-import ch.redacted.app.test.common.injection.module.ApplicationTestModule;
-import ch.redacted.app.test.common.injection.component.DaggerTestComponent;
-import ch.redacted.data.DataManager;
+import com.greatposterwall.GPWApplication;
+import com.greatposterwall.app.test.common.injection.module.ApplicationTestModule;
+import com.greatposterwall.app.test.common.injection.component.DaggerTestComponent;
+import com.greatposterwall.data.DataManager;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
@@ -19,13 +19,13 @@ import org.junit.runners.model.Statement;
  */
 public class TestComponentRule implements TestRule {
 
-    private final ch.redacted.app.test.common.injection.component.TestComponent
+    private final com.greatposterwall.app.test.common.injection.component.TestComponent
         mTestComponent;
     private final Context mContext;
 
     public TestComponentRule(Context context) {
         mContext = context;
-        REDApplication application = REDApplication.get(context);
+        GPWApplication application = GPWApplication.get(context);
         mTestComponent = DaggerTestComponent.builder()
                 .applicationTestModule(new ApplicationTestModule(application))
                 .build();
@@ -44,7 +44,7 @@ public class TestComponentRule implements TestRule {
         return new Statement() {
             @Override
             public void evaluate() throws Throwable {
-                REDApplication application = REDApplication.get(mContext);
+                GPWApplication application = GPWApplication.get(mContext);
                 application.setComponent(mTestComponent);
                 base.evaluate();
                 application.setComponent(null);

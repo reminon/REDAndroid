@@ -1,4 +1,4 @@
-package ch.redacted.app.util;
+package com.greatposterwall.app.util;
 
 /**
  * Robolectric default config properties

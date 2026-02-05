@@ -1,10 +1,10 @@
-package ch.redacted.app.runner;
+package com.greatposterwall.app.runner;
 
 import android.os.Bundle;
 import android.support.test.espresso.Espresso;
 
-import ch.redacted.app.util.RxIdlingExecutionHook;
-import ch.redacted.app.util.RxIdlingResource;
+import com.greatposterwall.app.util.RxIdlingExecutionHook;
+import com.greatposterwall.app.util.RxIdlingResource;
 import rx.plugins.RxJavaPlugins;
 
 /**

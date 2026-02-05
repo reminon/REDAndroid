@@ -1,4 +1,4 @@
-package ch.redacted.app.test.common.injection.module;
+package com.greatposterwall.app.test.common.injection.module;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,10 +7,10 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.remote.ApiService;
-import ch.redacted.data.remote.WhatManagerService;
-import ch.redacted.injection.ApplicationContext;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.remote.ApiService;
+import com.greatposterwall.data.remote.WhatManagerService;
+import com.greatposterwall.injection.ApplicationContext;
 
 import static org.mockito.Mockito.mock;
 

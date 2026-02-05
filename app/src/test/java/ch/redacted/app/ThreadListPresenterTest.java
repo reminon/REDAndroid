@@ -1,4 +1,4 @@
-package ch.redacted.app;
+package com.greatposterwall.app;
 
 import org.junit.After;
 import org.junit.Before;
@@ -9,12 +9,12 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import io.reactivex.Single;
-import ch.redacted.app.util.RxSchedulersOverrideRule;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.model.ForumView;
-import ch.redacted.data.remote.ApiService;
-import ch.redacted.ui.forum.threadList.ThreadListMvpView;
-import ch.redacted.ui.forum.threadList.ThreadListPresenter;
+import com.greatposterwall.app.util.RxSchedulersOverrideRule;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.model.ForumView;
+import com.greatposterwall.data.remote.ApiService;
+import com.greatposterwall.ui.forum.threadList.ThreadListMvpView;
+import com.greatposterwall.ui.forum.threadList.ThreadListPresenter;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.never;

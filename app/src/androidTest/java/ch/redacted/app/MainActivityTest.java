@@ -1,11 +1,11 @@
-package ch.redacted.app;
+package com.greatposterwall.app;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import ch.redacted.app.test.common.TestComponentRule;
-import ch.redacted.ui.login.LoginActivity;
+import com.greatposterwall.app.test.common.TestComponentRule;
+import com.greatposterwall.ui.login.LoginActivity;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;

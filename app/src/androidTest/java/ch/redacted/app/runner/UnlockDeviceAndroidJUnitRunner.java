@@ -1,4 +1,4 @@
-package ch.redacted.app.runner;
+package com.greatposterwall.app.runner;
 
 import android.annotation.SuppressLint;
 import android.app.Application;

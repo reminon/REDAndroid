@@ -1,12 +1,12 @@
-package ch.redacted.app;
+package com.greatposterwall.app;
 
 import io.reactivex.Single;
-import ch.redacted.app.util.RxSchedulersOverrideRule;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.model.Top10;
-import ch.redacted.data.remote.ApiService;
-import ch.redacted.ui.top10.Top10MvpView;
-import ch.redacted.ui.top10.Top10Presenter;
+import com.greatposterwall.app.util.RxSchedulersOverrideRule;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.model.Top10;
+import com.greatposterwall.data.remote.ApiService;
+import com.greatposterwall.ui.top10.Top10MvpView;
+import com.greatposterwall.ui.top10.Top10Presenter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;

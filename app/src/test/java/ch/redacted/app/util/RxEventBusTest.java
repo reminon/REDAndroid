@@ -1,7 +1,7 @@
-package ch.redacted.app.util;
+package com.greatposterwall.app.util;
 
 import io.reactivex.observers.TestObserver;
-import ch.redacted.util.RxEventBus;
+import com.greatposterwall.util.RxEventBus;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package ch.redacted.app.util;
+package com.greatposterwall.app.util;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

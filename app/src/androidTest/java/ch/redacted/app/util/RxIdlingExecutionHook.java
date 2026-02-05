@@ -1,4 +1,4 @@
-package ch.redacted.app.util;
+package com.greatposterwall.app.util;
 
 import rx.Observable;
 import rx.Subscription;

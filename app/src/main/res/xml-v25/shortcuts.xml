@@ -6,8 +6,8 @@
         android:shortcutShortLabel="@string/shortcut_top10_label">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="ch.redacted.app"
-            android:targetClass="ch.redacted.ui.top10.Top10Activity" />
+            android:targetPackage="com.greatposterwall.app"
+            android:targetClass="com.greatposterwall.ui.top10.Top10Activity" />
     </shortcut>
 
     <shortcut
@@ -17,8 +17,8 @@
         android:shortcutShortLabel="@string/shortcut_forums_label">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="ch.redacted.app"
-            android:targetClass="ch.redacted.ui.forum.category.CategoryActivity" />
+            android:targetPackage="com.greatposterwall.app"
+            android:targetClass="com.greatposterwall.ui.forum.category.CategoryActivity" />
     </shortcut>
 
     <shortcut
@@ -28,7 +28,7 @@
         android:shortcutShortLabel="@string/shortcut_profile_label">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="ch.redacted.app"
-            android:targetClass="ch.redacted.ui.profile.ProfileActivity" />
+            android:targetPackage="com.greatposterwall.app"
+            android:targetClass="com.greatposterwall.ui.profile.ProfileActivity" />
     </shortcut>
 </shortcuts>

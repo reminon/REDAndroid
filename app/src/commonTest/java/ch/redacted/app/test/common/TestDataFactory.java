@@ -1,11 +1,11 @@
-package ch.redacted.app.test.common;
+package com.greatposterwall.app.test.common;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import ch.redacted.data.model.Announcement;
-import ch.redacted.data.model.Profile;
+import com.greatposterwall.data.model.Announcement;
+import com.greatposterwall.data.model.Profile;
 
 /**
  * Factory class that makes instances of data models with random field values.

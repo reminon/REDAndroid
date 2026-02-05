@@ -1,4 +1,4 @@
-package ch.redacted.app;
+package com.greatposterwall.app;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,11 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.reactivex.Single;
-import ch.redacted.app.util.RxSchedulersOverrideRule;
-import ch.redacted.data.DataManager;
-import ch.redacted.data.remote.ApiService;
-import ch.redacted.ui.forum.category.CategoryMvpView;
-import ch.redacted.ui.forum.category.CategoryPresenter;
+import com.greatposterwall.app.util.RxSchedulersOverrideRule;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.remote.ApiService;
+import com.greatposterwall.ui.forum.category.CategoryMvpView;
+import com.greatposterwall.ui.forum.category.CategoryPresenter;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.doReturn;
