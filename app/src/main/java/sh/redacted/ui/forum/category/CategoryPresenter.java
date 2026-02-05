@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.category;
+package com.greatposterwall.ui.forum.category;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -8,9 +8,9 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import ch.redacted.ui.base.BasePresenter;
-import ch.redacted.data.DataManager;
-import ch.redacted.injection.ConfigPersistent;
+import com.greatposterwall.ui.base.BasePresenter;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.injection.ConfigPersistent;
 
 @ConfigPersistent public class CategoryPresenter extends BasePresenter<CategoryMvpView> {
 
