@@ -1,4 +1,4 @@
-package ch.redacted.ui.forum.thread;
+package com.greatposterwall.ui.forum.thread;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -6,10 +6,10 @@ import io.reactivex.observers.DisposableSingleObserver;
 import io.reactivex.schedulers.Schedulers;
 import javax.inject.Inject;
 
-import ch.redacted.data.DataManager;
-import ch.redacted.data.model.ForumThread;
-import ch.redacted.injection.ConfigPersistent;
-import ch.redacted.ui.base.BasePresenter;
+import com.greatposterwall.data.DataManager;
+import com.greatposterwall.data.model.ForumThread;
+import com.greatposterwall.injection.ConfigPersistent;
+import com.greatposterwall.ui.base.BasePresenter;
 import okhttp3.ResponseBody;
 import retrofit2.HttpException;
 
