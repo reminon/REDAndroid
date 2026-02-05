@@ -1,7 +1,7 @@
-package ch.redacted.ui.forum.thread;
+package com.greatposterwall.ui.forum.thread;
 
-import ch.redacted.data.model.ForumThread;
-import ch.redacted.ui.base.MvpView;
+import com.greatposterwall.data.model.ForumThread;
+import com.greatposterwall.ui.base.MvpView;
 
 public interface ThreadMvpView extends MvpView {
 
